@@ -48,9 +48,6 @@ python MITREattackDetection.py sample.pcap
 
 
 
-
----
-
 ## 🧠 Lessons Learned
 
 Building **MITREattackDetection** was more than just a coding exercise — it was a hands-on lesson in the complexity of real-world cybersecurity automation.  
