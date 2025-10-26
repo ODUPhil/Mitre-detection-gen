@@ -28,3 +28,20 @@ It helps analysts quickly identify potential tactics and techniques from capture
 git clone https://github.com/ODUPhil/MITREattackDetection.git
 cd MITREattackDetection
 pip install -r requirements.txt
+
+---
+
+## 🧭 How to Use
+
+This tool analyzes network captures (`.pcap` files) and automatically maps observed behavior to the [MITRE ATT&CK](https://attack.mitre.org) framework.
+
+You can run it directly in Python
+
+---
+
+### 🪄 Step 1 — Run the Script
+
+Run the tool on a `.pcap` file:
+
+```bash
+python MITREattackDetection.py sample.pcap 
