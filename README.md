@@ -1,4 +1,4 @@
-# 🛰️ MITREattackDetection
+# 🛰️ MITREATT&CKDetection
 **Network traffic analysis mapped to MITRE ATT&CK**
 
 MITREattackDetection is a Python-based tool that parses PCAP files, extracts key network indicators, and maps them to MITRE ATT&CK techniques.  
