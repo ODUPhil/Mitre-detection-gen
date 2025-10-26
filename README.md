@@ -45,7 +45,7 @@ Run the tool on a `.pcap` file:
 
 ```bash
 python MITREattackDetection.py sample.pcap 
-
+```
 
 
 ## 🧠 Lessons Learned
