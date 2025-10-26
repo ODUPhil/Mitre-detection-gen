@@ -28,7 +28,7 @@ It helps analysts quickly identify potential tactics and techniques from capture
 git clone https://github.com/ODUPhil/MITREattackDetection.git
 cd MITREattackDetection
 pip install -r requirements.txt
-
+``` 
 ---
 
 ## 🧭 How to Use
