@@ -84,22 +84,14 @@ Here’s what I learned along the way 👇
 **Lesson:** Always design for **offline operation** in defensive tools.
 
 
-### 5. Building the executable revealed real-world deployment issues
-- PyInstaller packaging introduced missing imports and dependency surprises.  
-- Antivirus software flagged the unsigned `.exe` as suspicious.  
-- Missing Npcap caused “No libpcap provider” warnings on Windows.
-
-**Lesson:** Deploying cybersecurity tools is as challenging as writing them — always test on clean systems, include dependency checks, and consider code-signing.
-
-
-### 6. Context > Automation
+### 5. Context > Automation
 - The script successfully identifies potential MITRE techniques, but **not every match is meaningful**.
 - Detections lack behavioral context (sequence, timing, or flow correlation).
 
 **Lesson:** Automated tools should **assist analysts, not replace them** — human validation is still key.
 
 
-### 7. Future Improvements
+### 6. Future Improvements
 - Add regex and fuzzy matching for payloads instead of simple substrings.  
 - Implement scoring or confidence levels for each detection.  
 - Use behavioral correlation (multiple packets over time) to reduce false positives.  
